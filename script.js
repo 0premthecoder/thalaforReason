@@ -1,4 +1,4 @@
-let ans = ['imthala','msdhoni','klrahul','studyme','who I m','rohitman','cricket','version','captain','language','2023','7','2005','january','2014']
+let ans = ['imthala','msdhoni','klrahul','studyme','who I m','rohitman','cricket','version','captain','language','2023','7','2005','january','2014','notthala']
 let rand = Math.floor(Math.random() * ans.length)
 let inp = document.getElementById('inp')
 inp.placeholder = `try writting ${ans[rand]}`
