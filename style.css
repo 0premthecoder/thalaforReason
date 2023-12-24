@@ -1,16 +1,17 @@
 *{
-    margin: 20px;
+    margin-top: 20px;
     padding: 0;
     
 }
 
 form{
     margin: auto;
-    width: 50%;
+    width: 80%;
     padding: 10px;
     border: 2px solid green;
     border-radius: 23px;
 }
+
 
 label{
     font-size: 40px;
@@ -23,6 +24,7 @@ label{
     font-size: 28px;
     border-radius: 12px;
     padding: 4px;
+    width: 50%;
 }
 
 .btn{
@@ -44,7 +46,7 @@ label{
   padding: 10px 15px;
   text-align: center;
   transition: 200ms;
-  width: 20%;
+  width: 100px;
   box-sizing: border-box;
   border: 0;
   font-size: 16px;
