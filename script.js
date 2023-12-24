@@ -4,6 +4,9 @@ let inp = document.getElementById('inp')
 inp.placeholder = `try ${ans[rand]}`
 
 function reason(){
+    rand = Math.floor(Math.random() * ans.length)
+    inp = document.getElementById('inp')
+    inp.placeholder = `try writting ${ans[rand]}`
     let res = document.getElementById('reason')
     if(isNaN(inp.value)){
         if(inp.value.length==7){
